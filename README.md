@@ -1,18 +1,22 @@
 # RubiksCube
 A simple Rubiks cube game made in [Processing](https://processing.org)
+*This program requires Processing 4 in order to run*
 
-Q = 1
-W = 2
-E = 3
+#### Controls:
+##### Horizontal
+- u + left/right : Top layer
+- e + left/right : Middle layer
+- d + left/right : Bottom layer
 
-H = Horizontal
-V = Vertical 
-D = Depth
+##### Vertical
+- l + up/down : Left layer
+- m + up/down : Middle layer
+- r + up/down : Right layer
 
-< = turn counter-clockwise
+##### Depth
+- f + left/right : Front face
+- s + left/right : Middle face
+- b + left/right : Back face
 
-\> = turn clockwise
-
-Example usage:
-- W + V + > $\rightarrow$ Turn the 2nd (middle) vertical layer clockwise
-- Q + D + < $\rightarrow$ Turn the 1st (the face you're looking at the start) depth layer counter-clockwise
+##### Rotation
+Moving your mouse rotates the cube
